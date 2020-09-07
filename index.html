@@ -28,7 +28,7 @@
 <body>
 
   <section id="title">
-    <div class="container-fluid">
+    <div class="container-fluid tContainer">
       <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="">tindog</a>
@@ -56,11 +56,11 @@
       <div class="row">
         <div class="col-lg-6">
           <h1>Meet new and interesting dogs nearby.</h1>
-          <button type="button" class="btn btn-dark btn-lg"><span class="fab fa-apple"></span> Download</button>
-          <button type="button" class="btn btn-outline-light btn-lg"><span class="fab fa-google-play"></span> Download</button>
+          <button type="button" class="btn btn-dark btn-lg dButton"><span class="fab fa-apple"></span> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg dButton"><span class="fab fa-google-play"></span> Download</button>
         </div>
         <div class="col-lg-6">
-          <img src="images/iphone6.png" alt="iphone-mockup">
+          <img src="images/iphone6.png" class="tImage" alt="iphone-mockup">
         </div>
       </div>
   </section>
@@ -69,16 +69,25 @@
   <!-- Features -->
   </div>
   <section id="features">
-
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
-
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
-
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
-
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 fCol">
+          <h1><i class="fas fa-check-circle featuresImg"></i></h1>
+          <h3 class="featuresHead">Easy to use.</h3>
+          <p class="featuresDec">So easy to use, even your dog could do it.</p>
+        </div>
+        <div class="col-lg-4 fCol">
+          <h1><i class="fas fa-bullseye featuresImg"></i></h1>
+          <h3 class="featuresHead">Elite Clientele</h3>
+          <p class="featuresDec">We have all the dogs, the greatest dogs.</p>
+        </div>
+        <div class="col-lg-4 fCol">
+          <h1><i class="fas fa-heart featuresImg"></i></h1>
+          <h3 class="featuresHead">Guaranteed to work.</h3>
+          <p class="featuresDec">Find the love of your dog's life or your money back.</p>
+        </div>
+      </div>
+    </div>
   </section>
 
 
