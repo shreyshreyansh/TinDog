@@ -1,6 +1,7 @@
 #title {
   background-color: #ff4c68;
   color: #fff;
+
 }
 
 h1 {
@@ -15,7 +16,7 @@ h2{
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 14.5%;
 }
 
 body {
@@ -47,20 +48,33 @@ body {
   margin: 5% 3% 5% 0;
 }
 
+.onHover-apple:hover{
+  background-color: #fff;
+  color: #000;
+  outline-color: #fff;
+}
 /* Title image */
 .tImage {
   width: 60%;
   -ms-transform: rotate(25deg);
   /* IE 9 */
   transform: rotate(25deg);
+  position: absolute;
+  left: 13.5%;
 }
 
 /* features Container */
 #features {
   text-align: center;
-  padding: 9% 0% 2% 0;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
 }
 
+#features .container-fluid{
+  padding-top: 12%;
+  padding-bottom: 12%;
+}
 .featuresImg {
   color: #ef8172;
 }
@@ -82,11 +96,6 @@ body {
   margin: auto;
 }
 
-.fCol {
-  /* width: 60%; */
-   padding-bottom: 7%;
-}
-
 /* testimonial section */
 
 #testimonials{
@@ -103,7 +112,6 @@ body {
 
 .carousel-item{
   padding : 7% 15%;
-
 }
 
 /* press section */
@@ -117,4 +125,76 @@ body {
 .press-img{
   width : 10%;
   margin : 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing{
+  padding : 100px;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+  text-align: center;
+}
+
+/* media query*/
+
+@media (max-width : 1110px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .tImage{
+    position: static;
+    transform: rotate(0deg);
+  }
+
+}
+
+/* Call to Action */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.cta-head{
+  margin: auto;
+  text-align: center;
+  width: 90%;
+  font-size: 3rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+#cta .container-fluid{
+  padding: 5% 15% 0%;
+}
+
+/* footer */
+
+#footer{
+  background-color: #fff;
+}
+
+.footer-p{
+  text-align: center;
+  margin-bottom: 0;
+  padding: 3% 0;
+}
+
+.footer-icon{
+  margin: 2% 1%;
+}
+
+.credit{
+  font-size: 0.75rem;
+  font-style: oblique;
+  color: #c8c8c8;
+}
+
+.onHover-footer:hover{
+  color: #c8c8c8;
 }
