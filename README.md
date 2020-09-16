@@ -1,15 +1,16 @@
 # TINDOG
+> Tinder for dogs ♥.
 <!-- [![FVCproductions](https://avatars1.githubusercontent.com/u/4284691?v=3&s=200)](http://fvcproductions.com) -->
 
 LINK : <a href="https://shreyshreyansh.github.io/TinDog/">TinDog</a>
 
 # Features
 
-> Great variety of dogs.
+> Great variety of dogs 🐶.
 
 > Pricing and different account functionality.
 
-> Contact me features.
+> Contact me features 📱.
 
 # Technologies Used
 
